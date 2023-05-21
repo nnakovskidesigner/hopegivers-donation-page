@@ -23,58 +23,114 @@
 
 </head>
 
-things to fix:
--background image opacity
 
-<!-- header to be insterted here -->
 
-<div class="container-fluid" style="height:80px;width:auto;">
 
-</div>
+
 
 <body>
     <div class="container-fluid donationspage text-white">
         <div class="col">
             <div class="row">
                 <h1 class="text-center">Донации</h1>
+                <svg class="donationsline" xmlns="http://www.w3.org/2000/svg" width="418.055" height="95.925" viewBox="0 0 418.055 95.925">
+                  <path id="Path_29" data-name="Path 29" d="M2741.47,354.313S3071.3,304.4,3147.409,310.547" transform="matrix(0.995, 0.105, -0.105, 0.995, -2684.411, -590.419)" fill="none" stroke="#fd98a0" stroke-linecap="round" stroke-width="8"/>
+                </svg>
+                
             </div>
         </div>
-        <div class="col typeofdonation">
-            <div class="row">
-                
-
-                <div class="row">
-                    <div class="col-md-6">
-                      <!-- Left side text -->
-                      <p>Изберете тип <br> на донација штo <br> ќе ја извршите</p>
-                    </div>
-                    <div class="col-md-6">
-                      <!-- Right side buttons -->
-                      <div class="row">
-                        <div class="col-md-4">
-                          <button class="btn btn-primary">
-                            <img src="/assets/img/icons/icon1.svg" alt="Clothing" />
-                          </button>
-                        </div>
-                        <div class="col-md-4">
-                          <button class="btn btn-primary">
-                            <img src="/assets/img/icons/icon2.svg" alt="Food" />
-                          </button>
-                        </div>
-                        <div class="col-md-4">
-                          <button class="btn btn-primary">
-                            <img src="/assets/img/icons/icon3.svg" alt="Money" />
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-
-
-
-
+        <div class="col-md-10 container">
+          <div class="donation-container">
+            <div class="donation-text text-center mx-auto">
+              <h3>Изберете тип <br> на донација што <br> ќе ја извршите</h3>
+              
             </div>
+            <div class="donation-buttons">
+              <button class="donation-button">
+                <img src="/assets/img/icons/icon1.svg" alt=""> <br>
+                <span class="button-icon buttontext">Облека</span>
+              </button>
+              <button class="donation-button">
+                <img src="/assets/img/icons/icon2.svg" alt=""> <br>
+                <span class="button-icon buttontext">Храна</span>
+              </button>
+              <button class="donation-button moneybutton">
+                <img src="/assets/img/icons/icon3.svg" alt=""> <br>
+                <span class="button-icon buttontext">Парични <br> средства</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="container mt-5">
+            <div class="row">
+              <div class="col text-center">
+                <h2 class="text-center">Парични средства</h2>
+                <svg style="margin-top: -30px; width:150px" xmlns="http://www.w3.org/2000/svg" width="303.477" height="71.655" viewBox="0 0 303.477 71.655">
+                  <path id="Path_41" data-name="Path 41" d="M2741.47,341.885s237.281-35.91,292.037-31.486" transform="matrix(0.995, 0.105, -0.105, 0.995, -2685.71, -590.424)" fill="none" stroke="#fd98a0" stroke-linecap="round" stroke-width="8"/>
+                </svg>
+                
+              </div>
+            </div>
+
+            <div class="row mt-3">
+              <div class="col">
+                <input type="text" placeholder="Име и Презиме" class="mb-4 inputfields"> <br>
+                <input type="text" placeholder="Email" class="mb-4 inputfields"> <br>
+                <input type="text" placeholder="Телефонски број" class="mb-4 inputfields"> <br>
+                <input type="text" placeholder="Адреса на живеење" class="inputfields">
+              </div>
+
+              <div class="col mt-3">
+                <h4 class="text-center">Изберете износ на доанција</h4>
+                <button class="mb-4 text-center mx-auto d-block donationamount-button">100 денари</button>
+                <button class="mb-4 text-center mx-auto d-block donationamount-button">100 денари</button>
+                <button class="mb-4 text-center mx-auto d-block donationamount-button">Друг износ</button>
+              </div>
+              
+            </div>
+
+            <button class="sendbutton mx-auto mt-5">
+              <span style="padding-left:25px">Испрати</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16.768" height="15.578" viewBox="0 0 16.768 15.578">
+                <g id="Group_146" data-name="Group 146" transform="translate(2.121 2.121)">
+                  <g id="Group_144" data-name="Group 144">
+                    <line id="Line_11" data-name="Line 11" x2="5.668" y2="5.668" transform="translate(0 0)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3"/>
+                    <line id="Line_12" data-name="Line 12" y1="5.668" x2="5.668" transform="translate(0 5.668)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3"/>
+                  </g>
+                  <g id="Group_145" data-name="Group 145" transform="translate(6.857)">
+                    <line id="Line_11-2" data-name="Line 11" x2="5.668" y2="5.668" transform="translate(0 0)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3"/>
+                    <line id="Line_12-2" data-name="Line 12" y1="5.668" x2="5.668" transform="translate(0 5.668)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3"/>
+                  </g>
+                </g>
+              </svg>
+            </button>
+            
+              
+            </div>
+
+            
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
         </div>
     </div>
+
+    
+    
+
+
+
 </body>
 
 <!-- footer to be inserted here -->
